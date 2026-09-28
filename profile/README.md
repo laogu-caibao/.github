@@ -10,6 +10,13 @@
 
 - 抖音 / 微信视频号 / 今日头条 / 快手：搜索「老谷拆财报」
 
+### 扫码关注
+
+| 微信视频号 | 抖音 |
+|---|---|
+| ![视频号二维码](docs/qrcode-shipinhao.jpg) | ![抖音二维码](docs/qrcode-douyin.png) |
+| 扫一扫，关注视频号 | 抖音号：gubaobao22 |
+
 ## 开源 Skill 合集
 
 把账号的方法论做成了可复用的 AI skill（平台中立，可用于豆包智能体、Workbuddy 等）：
