@@ -19,7 +19,7 @@
 
 ## 开源 Skill 合集
 
-把账号的方法论做成了可复用的 AI skill（平台中立，可用于豆包智能体、Workbuddy 等），共 16 个：
+把账号的方法论做成了可复用的 AI skill（平台中立，可用于豆包智能体、Workbuddy 等），共 21 个：
 
 ### 每日必看
 
@@ -49,8 +49,16 @@
 
 - [laogu-news](https://github.com/laogu-caibao/laogu-news) —— 财经资讯解读：事件摘要、影响链条、多空判断
 
+### 选股与进阶
+
+- [laogu-screener](https://github.com/laogu-caibao/laogu-screener) —— 多策略选股：给定条件从全市场筛 A股，支持自然语言选股
+- [laogu-fund](https://github.com/laogu-caibao/laogu-fund) —— 基金诊断：基金体检 + 经理行为审计 + 定投测算
+- [laogu-sentiment](https://github.com/laogu-caibao/laogu-sentiment) —— 情绪周期：市场测温，7 维指标判 5 阶段（测温不预测拐点）
+- [laogu-cb](https://github.com/laogu-caibao/laogu-cb) —— 可转债追踪：条款解读、溢价率、强赎预警、到期收益测算
+- [laogu-thesis](https://github.com/laogu-caibao/laogu-thesis) —— 观点追踪：投资观点建档留存，到期回检"当初说的还成立吗"
+
 ### 程序化数据层
 
-- [laogu-mcp](https://github.com/laogu-caibao/laogu-mcp) —— MCP Server：16 个 skill 的程序化数据层（零 key、纯公开接口），`uvx laogu-mcp` 一键安装
+- [laogu-mcp](https://github.com/laogu-caibao/laogu-mcp) —— MCP Server：21 个 skill 的程序化数据层（零 key、纯公开接口），`uvx laogu-mcp` 一键安装
 
 > 作者声明：个人观点，仅供参考，不构成投资建议。
