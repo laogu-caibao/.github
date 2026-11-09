@@ -2,7 +2,8 @@
 
 以数据为刃，剖市场真相。
 
-面向 A 股散户的财经科普与财报解读账号，聚焦半导体芯片、宏观政策与热门赛道，固定栏目「价值投资之财报解读」全网连载中。我们把账号的方法论沉淀成了 **21 个开源财经 skill + 2 个工具**：纯 Markdown、平台中立、MIT 协议，Claude Code / Codex / 豆包智能体 / Workbuddy / 扣子 Coze / Trae 都能用。
+面向 A 股散户的财经科普与财报解读账号，聚焦半导体芯片、宏观政策与热门赛道，固定栏目「价值投资之财报解读」全网连载中。我们把账号的方法论沉淀成了 **21 个开源财经 skill + 2 个工具**。 旗舰 skill 是 [laogu-caibao](https://github.com/laogu-caibao/laogu-caibao)（财报拆解 `lhg-cbfx`，v0.8.0）：先把数据做对再下结论，已有 8 期财报拆解实战与 7 份示例报告。 其余 skill 均为纯 Markdown、平台中立、MIT 协议，Claude Code / Codex / 豆包智能体 / Workbuddy / 扣子 Coze / Trae 都能用。
+
 
 ## 30 秒上手
 
@@ -14,11 +15,6 @@ npx skills add laogu-caibao/laogu-research
 uvx laogu-mcp
 ```
 
-## English
-
-**Laogu Caibao ("Old Gu Reads Earnings Reports")** is a Chinese finance media brand for retail A-share investors. We publish **21 open-source AI agent skills** covering the full research loop: daily market briefs and post-close recaps, macro calendar explainers, company fundamentals and periodic-report deep dives, earnings-preview interpretation, valuation percentiles, broker-report digests, money-flow and dragon-tiger list analysis, share-unlock impact grading, convertible-bond and fund screening, plus an MCP server (`uvx laogu-mcp`) exposing 16 zero-key data tools.
-
-Every skill is platform-neutral Markdown (works with Claude Code, Codex, Doubao, Workbuddy, Coze, Trae and any environment that reads Markdown instructions), installs with one command (`npx skills add laogu-caibao/<name>`), and follows two hard rules: **every number must come from a verifiable public source, and nothing is investment advice.**
 
 ## Skill 目录
 
@@ -60,8 +56,17 @@ Every skill is platform-neutral Markdown (works with Claude Code, Codex, Doubao,
 
 ### 工具箱
 
+- [laogu-caibao](https://github.com/laogu-caibao/laogu-caibao) —— 财报拆解 lhg-cbfx（旗舰）：先把数据做对再下结论，8 期实战、7 份示例报告
 - [laogu-mcp](https://github.com/laogu-caibao/laogu-mcp) —— MCP Server：16 个财经数据 tool 的程序化数据层（零 key、纯公开接口），`uvx laogu-mcp` 一键安装
 - [laogu-skill-maker](https://github.com/laogu-caibao/laogu-skill-maker) —— Skill 创作工坊：从选题、市场调研、SKILL.md 写作、数据源实测到冒烟测试、打包发布的 7 步流水线
+
+
+## English
+
+**Laogu Caibao ("Old Gu Reads Earnings Reports")** is a Chinese finance media brand for retail A-share investors. We publish **21 open-source AI agent skills** covering the full research loop: daily market briefs and post-close recaps, macro calendar explainers, company fundamentals and periodic-report deep dives, earnings-preview interpretation, valuation percentiles, broker-report digests, money-flow and dragon-tiger list analysis, share-unlock impact grading, convertible-bond and fund screening, plus an MCP server (`uvx laogu-mcp`) exposing 16 zero-key data tools.
+
+Every skill is platform-neutral Markdown (works with Claude Code, Codex, Doubao, Workbuddy, Coze, Trae and any environment that reads Markdown instructions), installs with one command (`npx skills add laogu-caibao/<name>`), and follows two hard rules: **every number must come from a verifiable public source, and nothing is investment advice.**
+
 
 ## 常见问题
 
@@ -79,6 +84,7 @@ Every skill is platform-neutral Markdown (works with Claude Code, Codex, Doubao,
 
 **Q：想自己做出同款财经 skill？**
 从 [laogu-skill-maker](https://github.com/laogu-caibao/laogu-skill-maker) 开始：21 个财经 skill 踩坑沉淀出的 7 步流水线。
+
 
 ## 在哪里关注
 
